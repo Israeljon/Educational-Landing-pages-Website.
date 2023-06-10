@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education landing page website</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header>
+        <nav class="container flex items-center justify-between">
+            <div class="w-20 py-5 font-bold text-3xl">
+                <a href="#home">
+                    <img src="/img/Logo.png" alt="">
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-10  mr-20">
+                    <li><a class="hover:text-color-secondary ease-in duration-200 cursor-pointer " href="">Service</a>
+                    </li>
+                    <li><a class="hover:text-color-secondary ease-in duration-200 cursor-pointer" href="">Product</a>
+                    </li>
+                    <li><a class="hover:text-color-secondary ease-in duration-200 cursor-pointer" href="">About</a></li>
+                    <li><a class="hover:text-color-secondary ease-in duration-200 cursor-pointer" href="">Blog</a></li>
+                    <li><a class="hover:text-color-secondary ease-in duration-200 cursor-pointer" href="">Career</a>
+                    </li>
+
+                    <li><button
+                            class="border border-solid border-color-secondary  bg-color-primary hover:bg-color-secondary ease-in duration-200 px-12 py-3 ml-10">Subscribe</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mobile screen -->
+            <div class="lg:hidden text-2xl cursor-pointer z-50" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div id="menu" class="hidden bg-color-primary h-[100vh] z-40 absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" class="hover:text-color-secondary ease-in duration-200 cursor-pointer "
+                            href="#">Service</a>
+                    </li>
+                    <li><a id="hLink" class="hover:text-color-secondary ease-in duration-200 cursor-pointer"
+                            href="#">Product</a>
+                    </li>
+                    <li><a id="hLink" class="hover:text-color-secondary ease-in duration-200 cursor-pointer"
+                            href="#">About</a></li>
+                    <li><a id="hLink" class="hover:text-color-secondary ease-in duration-200 cursor-pointer"
+                            href="#">Blog</a></li>
+                    <li><a id="hLink" class="hover:text-color-secondary ease-in duration-200 cursor-pointer"
+                            href="#">Career</a>
+                    </li>
+
+                    <li><button
+                            class="border border-solid border-color-secondary  bg-color-primary hover:bg-color-secondary ease-in duration-200 px-12 py-3 ml-10">Subscribe</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home" class="relative">
+
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row justify-between">
+                    <div class="text-center  md:text-left md:w-1/2 ">
+                        <h1 class="text-3xl md:text-4xl font-bold leading-snug mb-4">Just Academy OF Business.</h1>
+
+                        <p class="leading-relaxed mb-10 lg:text-xl">We Provide a complete range of products, printing
+                            and
+                            typesetting industry. has been the industry's standard dummy</p>
+
+                        <div class="flex justify-center space-x-3  md:space-x-6 flex-row items-center md:justify-start">
+                            <button
+                                class="bg-color-secondary px-9 py-3 rounded-sm capitalize   font-medium hover:bg-color-dark-orange">Get
+                                Started</button>
+                            <div class="flex items-center space-x-2">
+                                <div
+                                    class="flex justify-center items-center w-10 h-10  bg-color-secondary rounded-full">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="" />
+                                </div>
+                                <p class="text-base md:text-lg">Watch Video</p>
+                            </div>
+                        </div>
+                        <p class="leading-relaxed py-5 lg:text-lg font-semibold">20 Million Learners.15 Years.10% Free
+                        </p>
+                        <div>
+                            <div
+                                class="bg-color-secondary text-left px-5 py-3  md:px-9 md:py-5  flex items-center justify-between space-x-4">
+                                <p></p>
+                                <input
+                                    class="leading-relaxed border-0 outline-none bg-transparent w-full placeholder:text-color-white"
+                                    placeholder="What do You Want To leam today" />
+
+                                <button
+                                    class="bg-color-primary  px-9 py-2 ease-in duration-200 hover:bg-color-white hover:text-color-primary cursor-pointer text-base font-medium md:text-lg">Search</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="md:w-[30%] absolute hidden md:block bottom-0 right-10 md:right-[130px] top-10">
+                        <img class="w-full h-full object-contain"
+                            src="/img/Hero picture.png"
+                            alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-color-white">
+            <div class="pt-20">
+                <div class="bg-[#FAF7ED] w-full h-[30vh] text-center ">
+                    <h1 class="text-color-primary font-bold text-xl md:text-3xl py-16">We Collaborate With 150+ Leading
+                        Universities And Companies</h1>
+
+                    <div class="flex items-center text-center justify-evenly">
+                        <p class="text-color-primary font-light text-xl md:text-4xl capitalize">Cornell university</p>
+                        <p class="text-color-primary font-normal text-xl md:text-4xl capitalize">Northwestern</p>
+                        <p class="text-color-primary font-semibold text-xl md:text-4xl capitalize">Stanford</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="py-10 bg-color-white ">
+                <div class="flex flex-col items-center  md:flex-row">
+                    <div class="md:w-[50%] container md:mt-32">
+                        <img src="/img/Group 18402.png" alt="">
+                    </div>
+
+                    <div class="md:px-[100px] text-center md:text-left md:w-1/2 ">
+                        <h1
+                            class="text-3xl md:text-4xl capitalize font-bold leading-tight mb-3 md:mb-5 mt-5 md:mt-0 text-color-primary">
+                            Build
+                            Personalized student Experiences</h1>
+                        <p class="leading-relaxed mb-5 text-sm md:text-base text-color-gray font-normal">Meet The needs
+                            of The modern Student and drive outcomes
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly believable. If you are going </p>
+
+                        <button
+                            class="bg-color-secondary px-5 py-2 rounded-sm capitalize font-normal hover:bg-color-dark-orange duration-100">Learn
+                            Now</button>
+
+                    </div>
+                </div>
+                <div class="mt-10 md:mt-20">
+                    <div class="flex flex-col items-center  md:flex-row">
+                        <div class="container text-center md:text-left md:w-1/2">
+                            <h1
+                                class="text-3xl md:text-4xl capitalize font-bold leading-tight mb-3 md:mb-5 mt-5 md:mt-0 text-color-primary">
+                                Benefits of online learning</h1>
+                            <p class="leading-relaxed mb-8 md:mb-10 text-sm md:text-base text-color-gray font-normal">
+                                Since it can be accessed easily, There are many variations of passages of available, but
+                                the majority have suffered. </p>
+                            <div class="flex items-center space-x-2">
+                                <div
+                                    class="flex justify-center items-center w-10 h-10 md:w-16 md:h-16  bg-color-primary rounded-full">
+                                    <img class="w-4 h-4 md:w-6 md:h-6" src="/img/Vector (1).png" alt="" />
+                                </div>
+                                <p class="text-base md:text-lg text-color-primary font-semibold">More Affordable Cost
+                                </p>
+                            </div>
+
+                            <div class="flex items-center space-x-2">
+                                <div
+                                    class="flex justify-center items-center w-10 h-10 md:w-16 md:h-16  bg-color-primary rounded-full mt-3">
+                                    <img class="w-4 h-4 md:w-6 md:h-6" src="/img/Vector (1).png" alt="" />
+                                </div>
+                                <p class="text-base md:text-lg text-color-primary font-semibold">The Insight Gained Is
+                                    Much Wider</p>
+                            </div>
+
+                            <div class="flex items-center space-x-2">
+                                <div
+                                    class="flex justify-center items-center w-10 h-10 md:w-16 md:h-16  bg-color-primary rounded-full mt-3">
+                                    <img class="w-4 h-4 md:w-6 md:h-6" src="/img/Vector (1).png" alt="" />
+                                </div>
+                                <p class="text-base md:text-lg text-color-primary font-semibold">More Flexible Study
+                                    Time</p>
+                            </div>
+                        </div>
+
+                        <div class="md:w-[50%] md:px-[100px] mt-10 md:mt-0 container">
+                            <img src="/img/Group 18407.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color-white">
+
+            <div class="container py-20">
+                <div class="text-center md:w-1/2 m-auto">
+                    <h1
+                        class="text-3xl md:text-4xl capitalize font-bold leading-tight mb-3 md:mb-5  md:mt-0 text-color-primary">
+                        Our Exprience & Professional Mentor in edulight.</h1>
+                    <p class="leading-relaxed mb-8 md:mb-10 text-sm md:text-base text-color-gray font-normal">our
+                        Mentore is came up from varous background education and been worked,It is a long established
+                        fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout. The point of using.</p>
+                </div>
+
+                <div
+                    class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:px-6 lg:px-8 gap-8 lg:gap-10 px-4 md:w-full ">
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956.png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">ElliJah Parbotu Jemi</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Business Mangenment</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (2).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Jonaton Smith Jesi</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Photographer</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (3).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Mariana carl</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Digital Marketing Specialist</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (4).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Smiath Xoxo</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">video Editor</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="space-y-3">
+                            <img src= "/img/Rectangle 4956 (8).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Stavin Smith</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">3D Artict</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (6).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Joni Works</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Sofware Engineer</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (7).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Mendice Kinl</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Producst Designer</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="space-y-3">
+                            <img src="/img/Rectangle 4956 (5).png" alt="">
+                            <p class="text-color-light-green font-semibold mt-3 text-sm md:text-base">Elina Perry</p>
+                            <p class="text-color-light-gray font-normal text-sm md:text-base">Motoin Design</p>
+                            <div class="flex items-center space-x-2">
+                                <div class="bg-color-primary rounded-full w-8 h-8 flex justify-center items-center">
+                                    <img class="w-4 h-4" src="/img/Polygon 5.png" alt="">
+                                </div>
+                                <p class="text-color-light-gray text-sm md:text-base font-medium">6 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5 md:mt-10 sm:mt-8">
+                    <button
+                        class="bg-color-secondary px-5 py-2 md:px-8 md:py-4 rounded-sm capitalize font-normal hover:bg-color-dark-orange duration-100">See
+                        All Mentors</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-color-white">
+            <div class="container py-20">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="text-center md:text-left md:w-1/2 md:mt-32">
+                        <h2
+                            class="text-3xl md:text-4xl lg:text-[42px] capitalize font-bold leading-[50px] mb-3 md:mb-5 mt-5 md:mt-20 text-color-primary">
+                            Our Most Satisfied Customer Says About Us!</h2>
+                        <p class="leading-6 mb-5 text-sm md:text-base text-color-gray font-normal mt-8">Most of Our User
+                            give
+                            us Feedback regarding It is a long established fact that a reader will be distracted by the
+                            readable content</p>
+                        <div class="flex flex-col md:flex-row items-center space-x-4 space-y-2 md:space-y-0 mt-16">
+                            <div class="flex items-center space-x-2">
+                                <img class="w-6 h-6" src="/img/Star 44.png" alt="">
+                                <img class="w-6 h-6" src="/img/Star 44.png" alt="">
+                                <img class="w-6 h-6" src="/img/Star 44.png" alt="">
+                                <img class="w-6 h-6" src="/img/Star 44.png" alt="">
+                                <img class="w-6 h-6" src="/img/Star 44.png" alt="">
+                            </div>
+
+                            <p class="text-color-primary font-bold text-sm md:text-base">4.8</p>
+
+                        </div>
+                        <p class="text-color-primary font-medium text-sm md:text-base leading-6 mt-10 mb-10">There are
+                            many
+                            variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised words which don't look even slightly
+                            believable.</p>
+
+                        <p class="text-color-primary font-medium text-sm md:text-base leading-6 mb-8">Khanish Smith-
+                            Olive
+                            poper & Associates</p>
+                        <div class="flex items-center justify-center md:justify-end">
+                            <div class="flex items-center justify-end space-x-2 md:mt-10 lg:mt-16">
+                                <img class="w-8 h-8" src="/img/Group 18417.png" alt="">
+                                <img class="w-8 h-8" src="/img/Group 18416.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-[50%]  lg:pl-28">
+                        <img class="mt-10" src="/img/Group 18408.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-color-white ">
+            <div class="pt-20 bg-color-mix border-color-secondary md:border-t-[20px] md:rounded-r-[100px] ">
+                <div class="w-full h-[30vh] text-center container">
+                    <h3 class="text-color-primary mt-5 md:mt-12 font-bold text-3xl md:text-[42px]">Join Now To Get
+                        Special Offer.</h3>
+                    <p class="text-color-gray mt-5 md:mt-8 text-sm md:text-base font-normal">If You Need there’s24/7
+                        email,chat and phone support from a real person.</p>
+                    <button class="bg-color-primary px-9 py-3 rounded-md mt-3 md:mt-10 text-sm md:text-base hover:bg-color-white hover:text-color-primary duration-200 cursor-pointer hover:font-bold">Let’s
+                        Chat</button>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="footer" class="bg-color-primary w-full h-[50vh]">
+            <div class="container py-20">
+                <div
+                    class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 sm:py-6 lg:py-10 gap-10 lg:gap-20 py-4 md:w-full ">
+                    <div class="space-y-14">
+                        <img class="w-10 h-10 md:w-16 md:h-16" src="/img/Group 18395.png" alt="">
+
+                        <p class="text-color-white font-medium text-sm md:text-base leading-6">Highest rated
+                            hybrid.in-Person and virtual events platform.</p>
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 md:w-10 md:h-10 object-contain" src="/img/Vector (2).png" alt="">
+                            <p class="text-color-white font-normal text-sm md:text-base leading-6 hover:text-color-secondary duration-200 cursor-pointer">Sab75@gmail.com</p>
+                        </div>
+                    </div>
+
+
+                    <div class="mt-8 space-y-2">
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Working Remotely</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Partner Pogram</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Security</p>
+                    </div>
+
+                    <div class="mt-8 space-y-2">
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Categories</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Give a gift</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Sign up</p>
+                    </div>
+
+                    <div class="mt-8 space-y-2">
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Blog</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Press</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Privacy</p>
+                    </div>
+
+                    <div class="mt-8 space-y-2">
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">IOS App</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Android app</p>
+                        <p class="hover:text-color-secondary duration-200 cursor-pointer">Terms</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script>
+        // Mobile menu
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('#menu');
+        const hLink = document.querySelector('#hLink');
+        const fasolid = document.querySelector(".fa-solid");
+
+        hamburger.addEventListener("click", () => {
+            menu.classList.toggle('hidden');
+            fasolid.classList.toggle('fa-xmark');
+        })
+
+        hLink.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                fasolid.classList.toggle('fa-xmark');
+            })
+        })
+    </script>
+</body>
+
+</html>
+
+<!-- <section id="home">
+    <div class="container py-20">
+        <div class="flex items-center">
+            <div>
+                <h1 class="text-3xl py-4 capitalize">just academy of business.</h1>
+                <p class="text-base md:text-xl text-color-redish leading-relaxed">We Provide a complete range of
+                    products, printing and typesetting industry. has been the
+                    industry's standard dummy</p>
+                <div>
+                    <div class="flex items-center space-x-6 py-5">
+                        <button
+                            class="bg-color-secondary hover:bg-color-secondary/50 ease-in duration-200 px-12 py-3 ml-10 text-lg">Get
+                            Started</button>
+                        <div class="flex items-center space-x-2">
+                            <div class="flex justify-center items-center w-10 h-10  bg-color-secondary rounded-full">
+                                <img class="w-10 h-10"
+                                    src="/img/Polygon 5.png" alt=""/>
+                            </div>
+                            <p class="text-base md:text-lg">Watch Video</p>
+                        </div>
+                    </div>
+
+                    <p class="text-base md:text-lg mb-5">20 Million Learners.15 Years.10% Free</p>
+
+                    <div class="bg-color-secondary">
+                        <div class="flex items-center   px-2 py-3 justify-between">
+                            <p>What do You Want To leam today</p>
+                            <button
+                                class="bg-color-primary  px-9 py-2 ease-in duration-200 hover:bg-color-white hover:text-color-primary cursor-pointer text-base font-medium md:text-lg">Search</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="w-[50%]">
+                    <img src="/img/s-green-notebook-glad-meet-pupils-after-summer-holidays-isolated-pink-wall-cheerful-nerd-lecture_prev_ui 2.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="hero">
+    <div>
+        <div class="bg-color-white h-screen">
+
+            <div class="bg-[#FAF7ED]">
+                <h1>We Collaborate With 150+ Leading Universities And Companies</h1>
+                <div>
+                    <p>cornell university</p>
+                    <p>cornell university</p>
+                    <p>cornell university</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</section> -->
